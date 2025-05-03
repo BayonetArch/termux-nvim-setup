@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>Kanagawa</string>
+    <key>settings</key>
+    <array>
+        <!-- Base Colors -->
+        <dict>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#1F1F28</string>  <!-- Background (sumiInk0) -->
+                <key>foreground</key>
+                <string>#DCD7BA</string>  <!-- Foreground (fujiWhite) -->
+                <key>caret</key>
+                <string>#C8C093</string>   <!-- Cursor (carpYellow) -->
+                <key>invisibles</key>
+                <string>#54546D</string>   <!-- Invisibles (sumiInk4) -->
+                <key>lineHighlight</key>
+                <string>#2A2A37</string>  <!-- Line highlight (sumiInk1b) -->
+                <key>selection</key>
+                <string>#223249</string>  <!-- Selection (waveBlue1) -->
+            </dict>
+        </dict>
+        <!-- Syntax Highlighting -->
+        <dict>
+            <key>name</key>
+            <string>Comment</string>
+            <key>scope</key>
+            <string>comment</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#727169</string>  <!-- (oldWhite) -->
+                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>String</string>
+            <key>scope</key>
+            <string>string</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#98BB6C</string>  <!-- (springGreen) -->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Number</string>
+            <key>scope</key>
+            <string>constant.numeric</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFA066</string>  <!-- (peachRed) -->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Keyword</string>
+            <key>scope</key>
+            <string>keyword</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF5D62</string>  <!-- (waveRed) -->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function</string>
+            <key>scope</key>
+            <string>entity.name.function</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#7E9CD8</string>  <!-- (waveBlue2) -->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Class</string>
+            <key>scope</key>
+            <string>entity.name.class</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#7FB4CA</string>  <!-- (lightBlue) -->
+                <key>fontStyle</key>
+                <string>underline</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Tag</string>
+            <key>scope</key>
+            <string>entity.name.tag</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#6A9589</string>  <!-- (winterGreen) -->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Library</string>
+            <key>scope</key>
+            <string>support.function, support.class</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A3D4D5</string>  <!-- (winterBlue) -->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Invalid</string>
+            <key>scope</key>
+            <string>invalid</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#E82424</string>  <!-- (samuraiRed) -->
+                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+    </array>
+    <key>uuid</key>
+    <string>B71D1F02-3D5B-46B5-B38E-8C841C21347D</string>
+    <key>colorSpaceName</key>
+    <string>sRGB</string>
+    <key>semanticClass</key>
+    <string>theme.dark.kanagawa</string>
+</dict>
+</plist>
