@@ -47,7 +47,7 @@ you can customize your setup by editing the config files in `~/.config/nvim/`
 
 ## usage
 
-simply type `nvim` in your termux terminal to start coding
+simply type `nvim` in your termux terminal to start neovim
 
 ## troubleshooting
 
