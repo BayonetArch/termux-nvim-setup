@@ -9,11 +9,9 @@ source ./colors.sh || {
     echo -e "${WARN} ${RED_BOLD}Error: Failed to source colors.sh${NC}"
     exit 1
 }
-cp ./colors.properties $HOME/.termux/
-termux-reload-settings 
 #check if user is connceted to the internett
 echo -e "${CYAN} CHECKING INTERNET CONNECTION!!${NC}"
-if ping -c 3 1.1.1.1;then
+if ping -c 2 1.1.1.1;then
     echo -e "${TICK}${GREEN} You are connceted to internet continuing the installation${NC}"
     echo 
     echo
@@ -33,7 +31,6 @@ if cp ./font.ttf "$HOME"/.termux/; then
     echo -e "${TICK}${GREEN}Successfully installed nerd fonts${NC}"
     termux-reload-settings 
 sleep 1
-    echo
 else
     
     echo -e "${CROSS}${RED} Failed to install nerd fonts${NC} "
@@ -50,7 +47,7 @@ else
 fi
 sleep  2
 sleep 0.5
-echo -e "${MAGENTA_BOLD}$(toilet -f ivrit -F border 'neovim config')${NC}"  #colorful ascci using toilet
+#echo -e "${MAGENTA_BOLD}$(toilet -f ivrit -F border 'neovim config')${NC}"  #colorful ascci using toilet
 echo -en "${YELLOW_BOLD}start the installation now? [${GREEN_BOLD}Y${NC}/${RED}n${NC}]:${NC} " 
 
 
@@ -74,7 +71,7 @@ else
     echo -e "${BLACK_BACKGROUND} installing required packages ! ${NC}"
     sleep 1
 fi
-apt_pkgs=(grep ripgrep neovim lua-language-server clang shellcheck) 
+apt_pkgs=(fzf grep ripgrep neovim lua-language-server clang shellcheck) 
 #the animation is very lazy i know but  i  don't care  (:)
 for pkg in "${apt_pkgs[@]}"; do
     echo -en  "${ARROW}${MAGENTA_BOLD} installing $pkg${NC}"
