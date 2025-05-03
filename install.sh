@@ -71,7 +71,7 @@ else
     echo -e "${BLACK_BACKGROUND} installing required packages ! ${NC}"
     sleep 1
 fi
-apt_pkgs=(fzf grep ripgrep neovim lua-language-server clang shellcheck) 
+apt_pkgs=(nodejs fzf grep ripgrep neovim lua-language-server clang shellcheck) 
 #the animation is very lazy i know but  i  don't care  (:)
 for pkg in "${apt_pkgs[@]}"; do
     echo -en  "${ARROW}${MAGENTA_BOLD} installing $pkg${NC}"
@@ -124,7 +124,7 @@ for pk in "${npm_pkgs[@]}"; do
     echo -en "."
     sleep 0.4
 
-    npm i - g "$pk" -y &>/dev/null
+    npm i -g "$pk" -y &>/dev/null
     if [ $? -eq 0 ]; then
         echo -e "${CHECK}${GREEN} Success${TICK}${NC}"
     else
