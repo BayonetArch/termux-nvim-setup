@@ -9,6 +9,8 @@ source ./colors.sh || {
     echo -e "${WARN} ${RED_BOLD}Error: Failed to source colors.sh${NC}"
     exit 1
 }
+cp ./colors.properties $HOME/.termux/
+termux-reload-settings 
 #check if user is connceted to the internett
 echo -e "${CYAN} CHECKING INTERNET CONNECTION!!${NC}"
 if ping -c 3 1.1.1.1;then
