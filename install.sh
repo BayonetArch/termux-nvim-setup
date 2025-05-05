@@ -63,7 +63,7 @@ else
     echo -e "${BLACK_BACKGROUND} installing required packages ! ${NC}"
     sleep 1
 fi
-apt_pkgs=(nodejs fzf grep ripgrep neovim lua-language-server clang shellcheck) 
+apt_pkgs=(tur-repo nodejs fzf grep ripgrep neovim lua-language-server clang shellcheck) 
 #the animation is very lazy i know but  i  don't care  (:)
 for pkg in "${apt_pkgs[@]}"; do
     echo -en  "${ARROW}${MAGENTA_BOLD} installing $pkg${NC}"
