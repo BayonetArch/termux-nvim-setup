@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #this script helps to install the custom neovim  config made by me(BayonetArch) with lsp 
+cp ./font.ttf "$HOME"/.termux/
 clear
 RED_BOLD='\033[1;31m'
 NC='\033[0m'
@@ -10,15 +11,6 @@ source ./colors.sh || {
     exit 1
 }
 #check if user is connceted to the internett
-echo -e "${CYAN} CHECKING INTERNET CONNECTION!!${NC}"
-if ping -c 2 1.1.1.1;then
-    echo -e "${TICK}${GREEN} You are connceted to internet continuing the installation${NC}"
-    echo 
-    echo
-else 
-    echo -e "${CROSS}${RED} Please connect to the internet and try again${NC} "
-    exit 1
-fi
 #check if this script is being running on termux or not 
 if ! [[ -f $PREFIX/bin/pkg || -f $PREFIX ]]; then
     echo -e "${CROSS}${RED}THIS SCRIPT IS INTENDED TO RUN ON TERMUX USING OUTSIDE TERMUX ENVIRONMENT IS NOT SUITABEL${NC}"
@@ -224,13 +216,11 @@ sleep 1
 
 fi
 clear
-echo -e "${BLUE}$(toilet -f mono12  'Bayonet')${NC}"  
 echo -en "${RED_BOLD}setting up neovim  config finished${TICK}${NC} do you want to start neovim now(${YELLOW}Recommended${NC})? [${GREEN_BOLD}Y${NC}/${RED}n${NC}]:${NC} " 
 read -r  final_option
 if [[ $final_option == n ]]; then
     clear
     echo -e "${RED_BOLD} installation of config finished ! (you can manually start neovim with command${NC} ${WHITE_BOLD}nvim${NC}"
-    echo -e "${RED_BOLD}$(toilet -f mono12  'Bay0net')${NC}"  
     echo -e "${WHITE_BOLD}If you encounter any errors, check out my GitHub:${NC} ${RED}https://github.com/BayonetArch/${NC}"
     echo -e "${WHITE_BOLD} Or  visit my YouTube channel ${NC} ${RED}https://www.youtube.com/@Bayonet7${NC}"
     exit 0
@@ -245,7 +235,6 @@ elif [[ $final_option == 'y' || $final_option == 'Y' ]]; then
 elif [[ $final_option != y && $option != n  ]]; then
     clear
     echo -e "${RED_BOLD} installation of config finished ! (you can manually start neovim with command${NC} ${WHITE_BOLD}nvim${NC}"
-    echo -e "${RED_BOLD}$(toilet -f mono12  'Bay0net')${NC}"  
     echo -e "${WHITE_BOLD}If you encounter any errors, check out my GitHub:${NC} ${RED}https://github.com/BayonetArch/${NC}"
     echo -e "${WHITE_BOLD} Or  visit my YouTube channel ${NC} ${RED}https://www.youtube.com/@Bayonet7${NC}"
     sleep 2
@@ -255,6 +244,5 @@ else
 fi
 clear
 echo -e "${GREEN}installation finished !! ${NC}"
-echo -e "${RED_BOLD}$(toilet -f mono12  'Bay0net')${NC}"  
 echo -e "${WHITE_BOLD}If you encounter any errors, check out my GitHub:${NC} ${RED}https://github.com/BayonetArch/${NC}"
 echo -e "${WHITE_BOLD} Or  visit my YouTube channel ${NC} ${RED}https://www.youtube.com/@Bayonet7${NC}"
