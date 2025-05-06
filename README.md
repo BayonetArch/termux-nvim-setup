@@ -14,13 +14,16 @@ a simple setup for neovim on termux with all the essential plugins and configs t
 - custom keybindings for faster workflow
 
 ## requirements
-- termux app from github or f-droid
 - termux app.
 *Link:(https://github.com/termux/termux-app/releases/)*  
 - termx:api 
 *Link: (https://github.com/termux/termux-api/releases)*
 - basic knowledge of terminal commands
 - internet connection for downloading plugins
+
+
+> [!CAUTION]
+> *only use the github or fdroid version of github*
 
 ## installation
 
@@ -47,6 +50,13 @@ you can customize your setup by editing the config files in `~/.config/nvim/`
 - `init.lua` - main configuration file
 - `lua/plugins.lua` - manage your plugins
 - `lua/keybinds.lua` - customize keybindings
+
+> [!TIP]
+> - `init.lua` - main configuration file
+>  `lua/plugins.lua` - manage your plugins
+>- `lua/keybinds.lua` - customize keybindings
+
+
 
 ## usage
 
