@@ -50,13 +50,11 @@ you can customize your setup by editing the config files in `~/.config/nvim/`
 
 ## usage
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/main/Documentation/assets/warning.gif" height="50">
-</p>
-<h3 align="center"><span style="color:red">Caution</span></h3>
+> [!CAUTION]
+> READ CAREFULL
 > *after installing and opening the nvim you might get some erros wait till all plugins and treesitter is compiled and just restart termux*
 
- 
+
 
 
 ## troubleshooting
