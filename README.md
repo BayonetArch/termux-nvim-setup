@@ -8,7 +8,6 @@ a simple setup for neovim on termux with all the essential plugins and configs t
 - syntax highlighting for various programming languages
 - auto completion
 - file explorer
-- git integration
 - beautiful color schemes
 - fuzzy finding
 - custom keybindings for faster workflow
@@ -23,7 +22,7 @@ a simple setup for neovim on termux with all the essential plugins and configs t
 
 
 > [!WARNING]
-> *only use the github or fdroid version of github*
+> *only use the github or fdroid version of termux as the playstore version is outdated*
 
 ## installation
 
@@ -45,10 +44,10 @@ the script will install all necessary dependencies and set up your neovim config
 
 
 > [!TIP]
-> ## FOR CONFIGURING 
-> - `init.lua` - **is the  main configuration file**
->  `lua/plugins.lua` -  **you can manage plugins or add your own  plugins here**
-> - `lua/keybinds.lua` - **you can look for keybindings , change bindings or add your bindings here!**
+> # FOR CONFIGURING #
+>  `init.lua`  **is the  main configuration file**
+>  `lua/plugins.lua`   **you can manage plugins or add your own  plugins here**
+>  `lua/keybinds.lua`  **you can look for keybindings , change bindings or add your bindings here!**
 
 ## usage
 
@@ -58,7 +57,8 @@ the script will install all necessary dependencies and set up your neovim config
 
 ## troubleshooting
 
-If you run into any issues or have questions, feel free to ask in the comments on my [YouTube channel](https://www.youtube.com/@Bayonet7). I’ll try to respond as soon as I can.
+If you run into any issues or have questions, feel free to ask in the comments on my [YouTube channel](https://www.youtube.com/@Bayonet7) or open an issue in this repo. I’ll try to respond as soon as I can.
+
 
 
 
