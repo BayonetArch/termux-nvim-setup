@@ -17,9 +17,9 @@ a simple setup for neovim on termux with all the essential plugins and configs t
 
 ![lsp_showcase](./images/logo2.jpg)
 
-![dashboard_showcase](./images/logo_dashboard.jpg)
+![dashboard_showcase](./images/logo3.jpg)
 > [!IMPORTANT]
-> *you can change  your dashboard logo by opening `lua/plugins/dashboard.lua`
+> **you can change  your dashboard logo by opening `lua/plugins/dashboard.lua`**
 >
 > *you can get the ascii of your choice at [ascii-gen-site](https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)*
 > 
