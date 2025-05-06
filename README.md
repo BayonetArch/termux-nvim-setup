@@ -43,7 +43,7 @@ chmod +x install.sh
 the script will install all necessary dependencies and set up your neovim configuration
 
 > [!TIP]
-> # FOR CONFIGURING #
+> # configure #
 > 
 > `init.lua`  
 > **This is the main configuration file.**
@@ -55,7 +55,11 @@ the script will install all necessary dependencies and set up your neovim config
 > **View, change, or add keybindings here.**
 
 ## usage
-
+*start neovim with command*: 
+```bash
+nvim
+```
+  
 > [!CAUTION]
 > *after installing and opening the nvim you might get some erros wait till all plugins and treesitter is compiled and just restart termux*
 
