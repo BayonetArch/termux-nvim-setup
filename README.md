@@ -46,12 +46,12 @@ you can customize your setup by editing the config files in `~/.config/nvim/`
 
 - `init.lua` - main configuration file
 - `lua/plugins.lua` - manage your plugins
-- `lua/keymaps.lua` - customize keybindings
+- `lua/keybinds.lua` - customize keybindings
 
 ## usage
 
 simply type `nvim` in your termux terminal to start neovim
-
+>:info:  *after installing and opening the nvim you might get some erros wait till all plugins and treesitter is compiled and just restart termux*
 ## troubleshooting
 
 if you encounter any issues during installation or usage, check the logs or open an issue on github
