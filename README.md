@@ -61,7 +61,7 @@ nvim
 ```
   
 > [!CAUTION]
-> *after installing and opening the nvim you might get some erros wait till all plugins and treesitter is compiled and just restart termux*
+> *after installing and opening the nvim you might get some errors wait till all plugins and treesitter is compiled and just restart termux*
 
 
 ## troubleshooting
