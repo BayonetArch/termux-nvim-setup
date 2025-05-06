@@ -44,6 +44,7 @@ the script will install all necessary dependencies and set up your neovim config
 
 > [!TIP]
 > **CONFIGURE** 
+>
 > `init.lua`  
 > **This is the main configuration file.**
 > 
