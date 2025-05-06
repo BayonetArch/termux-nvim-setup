@@ -51,7 +51,6 @@ you can customize your setup by editing the config files in `~/.config/nvim/`
 ## usage
 
 > [!CAUTION]
-> READ CAREFULL <br>
 > *after installing and opening the nvim you might get some erros wait till all plugins and treesitter is compiled and just restart termux*
 
 
