@@ -42,12 +42,17 @@ chmod +x install.sh
 
 the script will install all necessary dependencies and set up your neovim configuration
 
-
 > [!TIP]
 > # FOR CONFIGURING #
->  `init.lua`  **is the  main configuration file**
->  `lua/plugins.lua`   **you can manage plugins or add your own  plugins here**
->  `lua/keybinds.lua`  **you can look for keybindings , change bindings or add your bindings here!**
+> 
+> `init.lua`  
+> **This is the main configuration file.**
+> 
+> `lua/plugins.lua`  
+> **Manage plugins or add your own plugins here.**
+> 
+> `lua/keybinds.lua`  
+> **View, change, or add keybindings here.**
 
 ## usage
 
