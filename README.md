@@ -43,8 +43,7 @@ chmod +x install.sh
 the script will install all necessary dependencies and set up your neovim configuration
 
 > [!TIP]
-> # configure #
-> 
+> **CONFIGURE** 
 > `init.lua`  
 > **This is the main configuration file.**
 > 
