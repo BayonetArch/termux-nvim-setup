@@ -22,7 +22,7 @@ a simple setup for neovim on termux with all the essential plugins and configs t
 - internet connection for downloading plugins
 
 
-> [!CAUTION]
+> [!WARNING]
 > *only use the github or fdroid version of github*
 
 ## installation
@@ -43,20 +43,12 @@ chmod +x install.sh
 
 the script will install all necessary dependencies and set up your neovim configuration
 
-## configuration
-
-you can customize your setup by editing the config files in `~/.config/nvim/`
-
-- `init.lua` - main configuration file
-- `lua/plugins.lua` - manage your plugins
-- `lua/keybinds.lua` - customize keybindings
 
 > [!TIP]
-> - `init.lua` - main configuration file
->  `lua/plugins.lua` - manage your plugins
->- `lua/keybinds.lua` - customize keybindings
-
-
+> ## FOR CONFIGURING 
+> - `init.lua` - **is the  main configuration file**
+>  `lua/plugins.lua` -  **you can manage plugins or add your own  plugins here**
+> - `lua/keybinds.lua` - **you can look for keybindings , change bindings or add your bindings here!**
 
 ## usage
 
@@ -64,23 +56,9 @@ you can customize your setup by editing the config files in `~/.config/nvim/`
 > *after installing and opening the nvim you might get some erros wait till all plugins and treesitter is compiled and just restart termux*
 
 
-
-
 ## troubleshooting
 
-if you encounter any issues during installation or usage, check the logs or open an issue on github
+If you run into any issues or have questions, feel free to ask in the comments on my [YouTube channel](https://www.youtube.com/@Bayonet7). I’ll try to respond as soon as I can.
 
-> [!NOTE]
-> *This is just a heads-up or helpful info.*
 
-> [!TIP]
-> *A smart shortcut or best practice.*
 
-> [!IMPORTANT]
-> *Pay attention — this affects core functionality.*
-
-> [!WARNING]
-> *Something might break or behave unexpectedly.*
-
-> [!CAUTION]
-> *This could mess things up if ignored.*
