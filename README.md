@@ -19,10 +19,13 @@ a simple setup for neovim on termux with all the essential plugins and configs t
 
 ![dashboard_showcase](./images/logo_dashboard.jpg)
 > [!IMPORTANT]
-> *you can change  your dashboard logo by opening 'lua/plugins/dashboard.lua'.you can get the ascii of your choice at *
-> [popular_ascii_gen_site](https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
+> *you can change  your dashboard logo by opening `lua/plugins/dashboard.lua`
+>
+> *you can get the ascii of your choice at [ascii-gen-site](https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)*
 > 
->  **choose font sytle** 'ANSI SHADOW' **if you want the logo to be like mine**
+>  *choose font sytle'ANSI SHADOW' if you want the logo to be like mine*
+
+
 ## requirements
 - termux app.
 *Link:(https://github.com/termux/termux-app/releases/)*  
