@@ -13,11 +13,11 @@ a simple setup for neovim on termux with all the essential plugins and configs t
 - custom keybindings for faster workflow
 
 ## Preview ##
-![nvim_inside_file](./images/logo1.jpg)
+![nvim_inside_file](./logo1.jpg)
 
-![lsp_showcase](./images/logo2.jpg)
+![lsp_showcase](./logo2.jpg)
 
-![dashboard_showcase](./images/logo3.jpg)
+![dashboard_showcase](./logo3.jpg)
 > [!IMPORTANT]
 > **you can change  your dashboard logo by opening `lua/plugins/dashboard.lua`**
 >
