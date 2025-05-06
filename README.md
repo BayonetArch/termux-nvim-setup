@@ -50,9 +50,19 @@ you can customize your setup by editing the config files in `~/.config/nvim/`
 
 ## usage
 
-simply type `nvim` in your termux terminal to start neovim
->:info:  *after installing and opening the nvim you might get some erros wait till all plugins and treesitter is compiled and just restart termux*
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/main/Documentation/assets/warning.gif" height="50">
+</p>
+<h3 align="center"><span style="color:red">Caution</span></h3>
+> *after installing and opening the nvim you might get some erros wait till all plugins and treesitter is compiled and just restart termux*
+
+ 
+
+
 ## troubleshooting
 
 if you encounter any issues during installation or usage, check the logs or open an issue on github
+
+>:info:  *after installing and opening the nvim you might get some erros wait till all plugins and treesitter is compiled and just restart termux*
+
 
