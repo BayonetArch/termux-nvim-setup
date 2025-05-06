@@ -60,3 +60,17 @@ you can customize your setup by editing the config files in `~/.config/nvim/`
 
 if you encounter any issues during installation or usage, check the logs or open an issue on github
 
+> [!NOTE]
+> *This is just a heads-up or helpful info.*
+
+> [!TIP]
+> *A smart shortcut or best practice.*
+
+> [!IMPORTANT]
+> *Pay attention — this affects core functionality.*
+
+> [!WARNING]
+> *Something might break or behave unexpectedly.*
+
+> [!CAUTION]
+> *This could mess things up if ignored.*
