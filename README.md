@@ -12,6 +12,17 @@ a simple setup for neovim on termux with all the essential plugins and configs t
 - fuzzy finding
 - custom keybindings for faster workflow
 
+## Preview ##
+![nvim_inside_file](./images/logo1.jpg)
+
+![lsp_showcase](./images/logo2.jpg)
+
+![dashboard_showcase](./images/logo_dashboard.jpg)
+> [!IMPORTANT]
+> *you can change  your dashboard logo by opening 'lua/plugins/dashboard.lua'.you can get the ascii of your choice at *
+> [popular_ascii_gen_site](https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
+> 
+>  **choose font sytle** 'ANSI SHADOW' **if you want the logo to be like mine**
 ## requirements
 - termux app.
 *Link:(https://github.com/termux/termux-app/releases/)*  
