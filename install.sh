@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #this script helps to install the custom neovim  config made by me(BayonetArch) with lsp 
+trap "echo -e '\nexiting..';exit 1" SIGINT
 cp ./font.ttf "$HOME"/.termux/
 clear
 RED_BOLD='\033[1;31m'
@@ -22,11 +23,11 @@ echo -e "${CYAN}Installing Nerd_fonts${NC}"
 if cp ./font.ttf "$HOME"/.termux/; then
     echo -e "${TICK}${GREEN}Successfully installed nerd fonts${NC}"
     termux-reload-settings 
-sleep 1
+    sleep 1
 else
-    
+
     echo -e "${CROSS}${RED} Failed to install nerd fonts${NC} "
-exit 1
+    exit 1
 
 fi
 
@@ -67,20 +68,6 @@ apt_pkgs=(tur-repo nodejs fzf grep ripgrep neovim lua-language-server clang shel
 #the animation is very lazy i know but  i  don't care  (:)
 for pkg in "${apt_pkgs[@]}"; do
     echo -en  "${ARROW}${MAGENTA_BOLD} installing $pkg${NC}"
-    echo -en "."
-    sleep 0.4
-    echo -en "."
-    sleep 0.4
-    echo -en "."
-    sleep 0.4
-    echo -en "."
-    sleep 0.4
-    echo -en "."
-    sleep 0.4
-    echo -en "."
-    sleep 0.4
-    echo -en "."
-    sleep 0.4
     apt install "$pkg"  -y &>/dev/null 
     if [ $? -eq 0 ]; then
         echo -e "${CHECK}${GREEN} Success${TICK}${NC}"
@@ -100,22 +87,6 @@ done
 npm_pkgs=(vscode-langservers-extracted  typescript typescript-language-server bash-language-server)
 for pk in "${npm_pkgs[@]}"; do
     echo -en  "${ARROW}${MAGENTA_BOLD} installing $pk${NC}"
-    echo -en "."
-    sleep 0.4
-    echo -en "."
-    sleep 0.4
-    echo -en "."
-    sleep 0.4
-
-    echo -en "."
-    sleep 0.4
-    echo -en "."
-    sleep 0.4
-    echo -en "."
-    sleep 0.4
-    echo -en "."
-    sleep 0.4
-
     npm i -g "$pk" -y &>/dev/null
     if [ $? -eq 0 ]; then
         echo -e "${CHECK}${GREEN} Success${TICK}${NC}"
@@ -132,21 +103,6 @@ done
 pip_pkg="pyright"
 for p in $pip_pkg ; do
     echo -en "${ARROW}${MAGENTA_BOLD} installing $p${NC}"
-    echo -en "."
-    sleep 0.4
-
-    echo -en "."
-    sleep 0.4
-    echo -en "."
-    sleep 0.4
-    echo -en "."
-    sleep 0.4
-    echo -en "."
-    sleep 0.4
-    echo -en "."
-    sleep 0.4
-    echo -en "."
-    sleep 0.4
     pip install $pip_pkg>/dev/null 2>error.log
 
     if [ $? -eq 0 ]; then
@@ -198,7 +154,7 @@ if ! [[ -f $config_dir/nvim/check.txt ]]; then
     echo -e "${MAGENTA_BOLD}Backing up files....to $backup_file ${NC}"
     if cp  -r "$config_dir"/nvim/ "$config_dir"/nvim.bak; then
         echo -e "${TICK} ${GREEN}Backup created succesfully successfully${NC}"
-sleep 1
+        sleep 1
     else 
         echo -e "${RED}CREATING BACKUP FAILED${NC}"
         exit 1
