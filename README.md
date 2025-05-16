@@ -62,10 +62,10 @@ the script will install all necessary dependencies and set up your neovim config
 > `init.lua`  
 > **This is the main configuration file.**
 > 
-> `lua/plugins.lua`  
+> `lua/plugins/your_plugin.lua`  
 > **Manage plugins or add your own plugins here.**
 > 
-> `lua/keybinds.lua`  
+> `lua/config/keybinds.lua`  
 > **View, change, or add keybindings here.**
 
 ## usage
